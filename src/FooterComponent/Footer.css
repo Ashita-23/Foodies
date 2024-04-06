@@ -1,0 +1,190 @@
+
+.footer-outer{
+    /* border: 1px solid red; */
+    height: auto;
+    width:99vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    padding-top: 2rem ;
+    
+    }
+    
+    a{
+        text-decoration: none;
+        color: rgb(185, 185, 185);
+        transition: 1s;
+    }
+    
+    a:hover{
+        
+        color: rgb(117, 115, 115);
+    }
+    
+    .footer-cards-outer{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .cuisineInfo{
+        /* border: 1px solid blue; */
+        height: auto;
+        width: 100%;
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    
+    .cuisineCardOuter{
+        height: auto;
+        width: 96%;
+        display: flex;
+    flex-wrap: wrap;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid rgb(157, 157, 243); */
+    
+    }
+    
+    .cuisineCardOuter2{
+        height: 37vh;
+        overflow: hidden;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        align-items: center;
+        justify-content: space-evenly;
+        }
+    
+    .cuisineText{
+        /* border: 1px solid red; */
+        height: auto;
+        width: 90%;
+        font-size: 1.5rem;
+        text-align: left;
+        padding: 0.5rem 1.1rem;
+    }
+    
+    .cuisineCard{
+        width: 20%;
+        padding: 1rem 1.5rem;
+        font-size: 0.8rem;
+        font-weight: 400;
+        color: rgb(102, 101, 101);
+        /* border: 1px solid rgb(235, 8, 8); */
+        border-radius: 12px ;
+        margin: 0.5rem 0.2rem;
+        text-align: center;
+        box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    .cuisineCard a{
+        color: rgb(102, 101, 101);
+    }
+    
+    .downloadInfo{
+        height: auto;
+    width: 99vw;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 1.5rem 1rem;
+        background-color: rgb(241, 241, 241);
+    }
+    .textBox{
+        height: auto;
+        width: 30%;
+        /* border: 1px solid rgb(15, 15, 15); */
+    }
+    
+    .infoText{
+        font-size: 1.7rem;
+        font-weight: 700;
+        color: rgb(85, 84, 84);
+        /* white-space: nowrap; */
+        
+    }
+    
+    .appImagebox{
+        height: 4rem;
+        width: 12rem;
+        margin: 0.5rem;
+        /* border: 1px solid rgb(243, 5, 5); */
+        border-radius:  15px;
+        overflow: hidden;
+    }
+    
+    .appImage{
+        height: 4rem;
+        width:100%;
+    
+    }
+    
+    /*---------------- footer - end --------------- */
+    .footer-end{
+        height: auto;
+        width: 99vw;
+        padding: 1rem ;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    }
+    .footer-end h4{
+        color: rgb(223, 223, 223);
+    }
+    .footer-end-sec-one{
+        /* border: 1px solid red; */
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-logo{
+        /* border: 1px solid white; */
+        font-size: 1.4rem;
+        font-weight: 800;
+        padding: 0.5rem;
+        letter-spacing: 1px;
+        color: rgb(243, 243, 243);
+    }
+    .footer-end-text{
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding: 0.5rem;
+        color: rgb(196, 195, 195);
+    }
+    
+    .footer-end-sec-two{
+        /* border: 1px solid red; */
+        padding: 0.2rem 0.4rem;
+    
+    }
+    
+    .footer-end-sec-three{
+        /* border: 1px solid red; */
+        padding: 0.2rem 0.4rem;
+    
+    
+    }
+    div ul{
+        font-size: 1rem;
+        list-style-type:none ;
+        color: rgb(196, 195, 195);
+    }
+    div ul li {
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
