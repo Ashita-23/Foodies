@@ -1,0 +1,85 @@
+
+.Nav-box{
+    height: 4rem;
+    width: 99vw;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+background-color: transparent;
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.Logo-box{
+    background-color: transparent;
+    /* margin-left: -1rem; */
+    /* border: 1.5px solid red; */
+}
+
+.Logo-text{
+    padding: 0.3rem 0.5rem;
+    font-size: 1.8rem;
+    font-weight: 500;
+    text-align: center;
+    border: 1.5px solid red;
+    background-color: transparent;
+}
+
+.Logo-text a{
+    color: red; 
+    text-decoration: none;
+}
+
+.Logo-ul{
+    display: flex;
+ /* margin-left: 1rem; */
+    list-style-type: none;
+}
+
+.Logo-ul li {
+    text-align: center;
+padding: 0.8rem 1rem;
+
+
+/* border: 1.5px solid red; */
+}
+
+.Logo-ul li  a{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(156, 155, 155);
+    transition: 1s;
+}
+.Logo-ul li a:hover{
+
+    color: rgb(85, 85, 85);
+}
+/* .cart-icon{
+    font-size: 1.1rem;
+    font-size: green;
+}
+.cart-icon-two{
+    font-size: 1.3rem;
+    font-size: green;
+} */
+
+/* ------------------------ */
+
+
+.icone-ul-two{
+    display: flex;
+    list-style-type: none;
+}
+.icone-ul-two li a{
+    font-size: 1.3rem;
+    padding: 0.5rem 0.6rem;
+    color: gray;
+}
+
+.favItem {
+    color: red;
+}

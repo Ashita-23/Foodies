@@ -1,0 +1,77 @@
+
+@media (min-width:260px) {
+    .Nav-box{
+        height: 4rem;
+        width: 100%;
+        /* border: 1px solid red; */
+        padding:  0rem .2rem;
+    }
+    .Logo-text{
+        padding: 0.3rem 0.5rem;
+        font-size: 1rem;
+    }
+    .Logo-ul{
+        display: none;
+    }
+    .icone-ul-two li a{
+        font-size: 0.8rem;
+        padding: 0.5rem 0.2rem;
+    }
+}
+
+@media (min-width:320px) {
+
+    .icone-ul-two li a{
+        font-size: 1.2rem;
+        padding: 0.5rem 0.6rem;
+    }
+}
+
+@media (min-width: 481px) {
+    .Logo-text{
+        padding: 0.3rem 0.5rem;
+        font-size: 1.3rem;
+    }
+
+    .icone-ul-two li a{
+        font-size: 1.5rem;
+        padding: 0.5rem 1rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .Logo-text{
+        padding: 0.3rem 0.5rem;
+        font-size: 1.5rem;
+    }
+    .Logo-ul{
+        display: flex;
+    }
+    .icone-ul-two{
+        display: none;
+    }
+}
+
+@media (min-width: 1025px) {
+    .Nav-box{
+        height: 4rem;
+        width:100%;
+    }
+    .Logo-text{
+        padding: 0.3rem 0.5rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1201px) {
+    .Nav-box{
+        height: 4rem;
+        width: 99vw;
+    }
+    .Logo-text{
+        padding: 0.3rem 0.5rem;
+        font-size: 1.8rem;
+        font-weight: 500;
+    }
+}
