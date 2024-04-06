@@ -1,0 +1,20 @@
+
+.Shimmer-menu-outer{
+    height: auto;
+    width: 99%;
+    border: 1px solid red;
+}
+.Shimmer-menu-card{
+    height: auto;
+    width:12rem;
+}
+.Shimmer-menu-header{
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(117, 116, 116);
+}
+.Shimmer-menu-body{
+    height: 2rem;
+    width: 100%;
+    background-color: rgb(117, 116, 116);
+}

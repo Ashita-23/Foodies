@@ -1,0 +1,118 @@
+
+.home-outer{
+    height: auto;
+    min-height: 100vh;
+    width: 99vw;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(241, 241, 241);
+    /* padding: 1rem 0rem; */
+    border: none;
+    }
+    
+    .home-intro-box{
+        background-color: white;
+        height:50vh;
+    width: 70vw;
+    margin-top: 5rem;
+    margin-bottom: 6rem;
+    /* border: 1px solid rgb(19, 7, 7); */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    }
+    
+    .home-intro-text{
+        height:25vh;
+        width: 35vw;
+        /* padding: 0.4rem 0rem; */
+        /* border: 1px solid rgb(221, 113, 113); */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    align-items: flex-start;
+    justify-content: space-around;
+    }
+    
+    .heading{
+        color: red;
+        /* border: 1px solid red; */
+        padding: 0.5rem 1rem;
+        letter-spacing: 1px;
+    }
+    
+    .title-tag{
+        font-weight: 500;
+        font-size: 1.1rem;
+        padding: 0.3rem 0rem;
+        color: rgb(253, 62, 62);
+    }
+    .title{
+        color: gray;
+        font-size: 1.1rem;
+        word-spacing: 1px;
+    }
+    .home-btn{
+        /* color: red; */
+        padding: 0.5rem 1rem;
+        font-size: 1.2rem;
+        border: 1px solid  red;
+        border-radius: 15px ;
+        background-color: transparent;
+        letter-spacing: 1px;
+        transition: 1s;
+    }
+    .home-btn a{
+        color: red;
+        text-decoration: none;
+        transition: 1s;
+    
+    }
+    .home-btn a:hover{
+        color: rgb(253, 252, 252);
+     
+    }
+    .home-btn:hover {
+        /* color: white; */
+        /* padding: 0.5rem 1rem; */
+        /* font-size: 1.2rem; */
+        /* border: 1px solid  red; */
+        /* border-radius: 15px ; */
+        background-color: red;
+    }
+    .home-image-box{
+        height: 40vh;
+        width: 20vw;
+        /* border: 1px solid rgb(187, 22, 22); */
+    }
+    
+    .img-box{
+        height: 40vh;
+        width:20vw;
+        /* border: 1px solid rgb(187, 22, 22); */
+    }
+    
+    
+    
+    /* hone Cards css */
+    .home-Cards-box{
+        background-color: white;
+        margin-top: 5rem;
+        margin-bottom: 6rem;
+        height:40vh;
+        width: 70vw;
+        /* border: 1px solid rgb(80, 2, 2);  */
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content:space-around;
+    }

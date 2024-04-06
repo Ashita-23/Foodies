@@ -1,0 +1,182 @@
+.fav_outer{
+    /* border: 1px solid red; */
+    height: auto;
+    min-height: 99vh;
+    width: 99vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    /* padding: 0rem 2rem; */
+}
+
+.fav_header{
+    /* border: 1px solid red; */
+    height: auto;
+    width:70%;
+    padding: 1rem 2rem ;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-bottom: 1px solid rgb(158, 158, 158);
+    margin: 0rem 2rem;
+}
+
+.fav_btn{
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: white;
+    color: rgb(252, 5, 5);
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding: 0.5rem 1.3rem;
+    margin-left: 1rem;
+}
+
+.fav_inner{
+    height: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.favCard-outer{
+    height: auto;
+    width: 60rem;
+    /* border:1px solid red; */
+    border-bottom: 1px solid rgb(194, 194, 194);
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+}
+
+.favCard-details{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.veg{
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    color: green;
+}
+
+.nonVeg{
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    color:red;
+}
+
+.category{
+    color: rgb(66, 66, 66);
+    font-size: 1.1rem;
+    padding: 0.1rem;
+    font-weight: 400;
+}
+
+.favCard-name{
+    font-size: 1rem;
+    font-weight: 300;
+    /* padding: 0.1rem; */
+    padding-bottom: 0.2rem;
+    color: rgb(56, 56, 56);
+    
+}
+
+
+.favCard-RPS-box{
+    border-top: 1px solid gainsboro;
+    margin-top: 2px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction:r;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.5rem ;
+    padding: 0.2rem 0.4rem;
+    background-color: #01b401;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.low-rating{
+    background-color: #DB7C38;
+}
+
+.favCard-price{
+    margin: 0.3rem 0.5rem ;
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(160, 159, 159);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.5rem ;
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(160, 159, 159);
+}
+
+.favCard-btn-img{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+}
+
+.remove-from-favCard-img{
+height: 5rem;
+width: 6rem;
+border: 1px solid rgb(180, 180, 180);
+/* background-color: rgb(250, 250, 250); */
+border-radius: 12px;
+position: relative;
+/* overflow: hidden; */
+}
+
+.favCard-img{
+    height: 5rem;
+width: 6rem;
+/* border: 1px solid rgb(180, 180, 180); */
+/* background-color: rgb(250, 250, 250); */
+border-radius: 12px;
+/* position: absolute; */
+}
+.remove-from-favCard-btn{
+    position: absolute;
+    margin-left: 10px;
+    margin-top: -22px;
+    border-radius: 5px;
+    border:1px transparent;
+outline: none;
+padding: 0.4rem 0.5rem;
+font-size: 0.9rem;
+font-weight: 600;
+color: white;
+background-color: red;
+transition: 1s;
+}
+
+.remove-from-favCard-btn:hover{
+    color: red;
+    border:1px solid red;
+    
+    /* box-shadow: #01b401 0px 2px 4     px 0px; */
+    background-color: white;
+}

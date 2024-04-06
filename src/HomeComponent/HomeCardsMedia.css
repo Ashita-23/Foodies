@@ -1,0 +1,168 @@
+
+@media (min-width:260px) {
+    
+
+    .card-outer{
+        border-radius: 5px;
+        overflow: hidden;
+        height: auto;
+        /* border: 1px solid red; */
+        margin: 1rem 0rem;
+    
+       
+    }
+    
+    .card-outer:hover{
+        transform: none;
+    }
+    
+    
+    .card-img{
+       
+        height: 10rem;
+        width: 14rem;
+        /* border: 1px solid red; */
+    }
+    
+    .card-title{
+        font-size: 1.2rem;
+        /* border: 1px solid red; */
+    
+    }
+    }
+    
+    @media (min-width:320px) {
+    }
+    
+    @media (min-width: 481px) {
+    }
+    
+    @media (min-width: 769px) {
+        
+    .card-outer{
+        border-radius: 5px;
+        overflow: hidden;
+        height: auto;
+        /* border: 1px solid red; */
+        margin: 1rem 1rem;
+       
+    }
+    
+    .card-outer:hover{
+        transform: none;
+    }
+    
+    
+    .card-img{
+       
+        height: 10rem;
+        width: 14rem;
+        /* border: 1px solid red; */
+    }
+    
+    .card-title{
+        font-size: 1.2rem;
+        /* border: 1px solid red; */
+    
+    }
+    }
+    @media (min-width: 964px) {
+        
+    .card-outer{
+        border-radius: 5px;
+        overflow: hidden;
+        height: auto;
+        /* border: 1px solid red; */
+        margin: 1rem 1.5rem;
+       
+    }
+    
+    .card-outer:hover{
+        transform: none;
+    }
+    
+    
+    .card-img{
+       
+        height: 10rem;
+        width: 14rem;
+        /* border: 1px solid red; */
+    }
+    
+    .card-title{
+        font-size: 1.2rem;
+        /* border: 1px solid red; */
+    
+    }
+    }
+    @media (min-width: 1024px) {
+        
+    .card-outer{
+        border-radius: 5px;
+        overflow: hidden;
+        height: auto;
+        /* border: 1px solid red; */
+        margin: 1rem 1.5rem;
+       
+    }
+    
+    .card-outer:hover{
+        transform: none;
+    }
+    
+    
+    .card-img{
+       
+        height: 12rem;
+        width: 16rem;
+        /* border: 1px solid red; */
+    }
+    
+    .card-title{
+        font-size: 1.2rem;
+        /* border: 1px solid red; */
+    
+    }
+    }
+    
+    @media (min-width: 1025px) {
+    }
+    
+    @media (min-width: 1201px) {
+        
+        .card-outer{
+            border-radius: 5px;
+            overflow: hidden;
+            height: auto;
+            /* border: 1px solid red; */
+            margin: 1rem 1rem;
+           
+        }
+        
+        .card-outer:hover{
+            transform: none;
+        }
+        
+        
+        .card-img{
+           
+            height: 14rem;
+            width: 18rem;
+            /* border: 1px solid red; */
+        }
+        
+        .card-title{
+            font-size: 1.2rem;
+            /* border: 1px solid red; */
+        
+        }
+        }
+    
+    
+    @media (min-width: 1220px) {
+        
+        .card-outer{
+            border: none; 
+        }
+     
+        }

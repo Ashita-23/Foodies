@@ -1,0 +1,524 @@
+
+@media (min-width:260px) {
+
+    .fav_header{
+        /* border: 1px solid red; */
+        height: auto;
+        width:100%;
+        padding: 1rem ;
+        margin: 0rem;
+       
+    }
+    
+
+   .favCard-outer{
+        height: auto;
+        width: 100%;
+        /* border:1px solid red; */
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+   .favCard-details{
+        /* border: 1px solid red; */
+        padding: 0.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    
+.category{
+    font-size: 1rem;
+}
+
+.favCard-name{
+    font-size: 0.9rem; 
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem 0.2rem;
+    font-size: 0.7rem;
+}
+.favCard-price{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(66, 66, 66);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.8rem;
+    font-weight: 300;
+    color: rgb(82, 81, 81);
+}
+
+}
+
+@media (min-width:320px) {
+
+    .fav_header{
+        /* border: 1px solid red; */
+        height: auto;
+        width:90%;
+       
+    }
+
+   .favCard-outer{
+        height: auto;
+        width: 100%;
+        /* border:1px solid red; */
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+   .favCard-details{
+        /* border: 1px solid red; */
+        padding: 0.5rem;
+        width: 100%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items:center;
+        justify-content: center;
+    }
+
+    
+.category{
+    font-size: 1rem;
+}
+
+.favCard-name{
+    font-size: 0.9rem; 
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.3rem ;
+    padding: 0.2rem 0.4rem;
+}
+.favCard-price{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(66, 66, 66);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: rgb(82, 81, 81);
+}
+}
+
+@media (min-width:450px) {
+    .fav_header{
+        /* border: 1px solid red; */
+        height: auto;
+        width:100%;
+        padding: 1rem ;
+        margin: 1rem;
+       
+    }
+
+   .favCard-outer{
+        height: auto;
+        width: 100%;
+        /* border:1px solid red; */
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap-reverse;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+   .favCard-details{
+        /* border: 1px solid red; */
+        padding: 0.5rem;
+        width: 60%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items:flex-start;
+        justify-content: center;
+    }
+
+    
+.category{
+    font-size: 1.1rem;
+}
+
+.favCard-name{
+    font-size:1rem; 
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.3rem ;
+    padding: 0.2rem 0.4rem;
+    font-weight:400;
+}
+.favCard-price{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight:400;
+    color: rgb(82, 81, 81);
+}
+}
+
+@media (min-width: 481px) {
+   .favCard-outer{
+        height: auto;
+        width: 100%;
+        /* border:1px solid red; */
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+   .favCard-details{
+        /* border: 1px solid red; */
+        padding: 0.5rem;
+        width: 60%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items:flex-start;
+        justify-content: center;
+    }
+
+    
+.category{
+    font-size: 1.1rem;
+}
+
+.favCard-name{
+    font-size:1rem; 
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.3rem ;
+    padding: 0.2rem 0.4rem;
+    font-weight:400;
+}
+.favCard-price{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight:400;
+    color: rgb(82, 81, 81);
+}
+}
+@media (min-width: 500px) {
+    .fav_header{
+        /* border: 1px solid red; */
+        height: auto;
+        width:98%;
+        padding: 1rem ;
+        margin: 1rem 2rem;
+       
+    }
+   .favCard-outer{
+        height: auto;
+        width: 86%;
+        /* border:1px solid red; */
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+   .favCard-details{
+        /* border: 1px solid red; */
+        padding: 0.5rem;
+        width: 60%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items:flex-start;
+        justify-content: center;
+    }
+
+    
+.category{
+    font-size: 1.1rem;
+}
+
+.favCard-name{
+    font-size:1rem; 
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.3rem ;
+    padding: 0.2rem 0.4rem;
+    font-weight:400;
+}
+.favCard-price{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight:400;
+    color: rgb(82, 81, 81);
+}
+}
+
+@media (min-width: 700px){
+    .fav_header{
+        /* border: 1px solid red; */
+        height: auto;
+        width:70%;
+        padding: 1rem ;
+        margin: 1rem 2rem;
+       
+    }
+}
+@media (min-width: 769px) {
+
+    .fav_header{
+        /* border: 1px solid red; */
+        height: auto;
+        width:70%;
+        padding: 1rem ;
+        margin: 1rem 2rem;
+       
+    }
+
+   .favCard-outer{
+        height: auto;
+        width: 86%;
+        /* border:1px solid red; */
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+   .favCard-details{
+        /* border: 1px solid red; */
+        padding: 0.5rem;
+        width: 60%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items:flex-start;
+        justify-content: center;
+    }
+
+    
+.category{
+    font-size: 1.1rem;
+}
+
+.favCard-name{
+    font-size:1rem; 
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.3rem ;
+    padding: 0.2rem 0.4rem;
+    font-weight:400;
+}
+.favCard-price{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight:400;
+    color: rgb(82, 81, 81);
+}
+}
+@media (min-width: 1025px) {
+
+    .fav_header{
+        /* border: 1px solid red; */
+        height: auto;
+        width:60%;
+        padding: 1rem ;
+        margin: 1rem 2rem;
+       
+    }
+
+   .favCard-outer{
+        height: auto;
+        width: 70%;
+        /* border:1px solid red; */
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+   .favCard-details{
+        /* border: 1px solid red; */
+        padding: 0.5rem;
+        width: 60%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items:flex-start;
+        justify-content: center;
+    }
+
+    
+.category{
+    font-size: 1.1rem;
+}
+
+.favCard-name{
+    font-size:1rem; 
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.3rem ;
+    padding: 0.2rem 0.4rem;
+    font-weight:400;
+}
+.favCard-price{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight:400;
+    color: rgb(82, 81, 81);
+}
+}
+@media (min-width: 1201px) {
+   .favCard-outer{
+        height: auto;
+        width: 60%;
+        /* border:1px solid red; */
+        border-bottom: 1px solid rgb(194, 194, 194);
+        padding: 0.2rem;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin: 0.5rem 0;
+    }
+    
+   .favCard-details{
+        /* border: 1px solid red; */
+        padding: 0.5rem;
+        width: 60%;
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;
+        align-items:flex-start;
+        justify-content: center;
+    }
+
+    
+.category{
+    font-size: 1.1rem;
+}
+
+.favCard-name{
+    font-size:1rem; 
+}
+
+.favCard-rating{
+    margin: 0.3rem 0.3rem ;
+    padding: 0.2rem 0.4rem;
+    font-weight:400;
+}
+.favCard-price{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight: 400;
+    color: rgb(66, 66, 66);
+}
+
+.favCard-inStock{
+    margin: 0.3rem 0.2rem ;
+    padding: 0.2rem;
+    font-size: 0.9rem;
+    font-weight:400;
+    color: rgb(82, 81, 81);
+}
+}
+
+
+
+
+
