@@ -1,0 +1,147 @@
+
+.menuCard-Outer{
+    height: auto;
+    width: 90%;
+  border: none;
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid gray;
+}
+
+.menuCards-details{
+    /* border: 1px solid rgb(255, 217, 0); */
+    padding: 0.5rem;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+
+.veg{
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    color: green;
+}
+
+.nonVeg{
+    margin-bottom: 0.2rem;
+    font-size: 1rem;
+    color:red;
+}
+
+.category{
+    color: rgb(66, 66, 66);
+    font-size: 1.1rem;
+    padding: 0.1rem;
+    font-weight: 400;
+}
+
+.menu-name{
+    font-size: 1rem;
+    font-weight: 300;
+    /* padding: 0.1rem; */
+    padding-bottom: 0.2rem;
+    color: rgb(56, 56, 56);
+    
+}
+
+.description{
+    font-size: .8rem;
+    font-weight: 300;
+    /* padding: 0.1rem; */
+    padding-bottom: 0.2rem ;
+    color: rgb(56, 56, 56);
+}
+
+.menu-RPS-box{
+    border-top: 1px solid gainsboro;
+    margin-top: 2px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction:r;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-rating{
+    margin: 0.3rem 0.5rem ;
+    padding: 0.2rem 0.4rem;
+    background-color: #01b401;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.low-rating{
+    background-color: #DB7C38;
+}
+
+.menu-price{
+    margin: 0.3rem 0.5rem ;
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(160, 159, 159);
+}
+
+.menu-inStock{
+    margin: 0.3rem 0.5rem ;
+    padding: 0.2rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(160, 159, 159);
+}
+
+.menuCards-btn-img{
+    /* border: 1px solid red; */
+    padding: 0.5rem;
+}
+
+.add-to-cart-img{
+height: 6rem;
+width: 7rem;
+/* border: 1px solid rgb(180, 180, 180); */
+/* background-color: rgb(250, 250, 250); */
+border-radius: 12px;
+position: relative;
+}
+
+.add-to-cart-btn{
+    position: absolute;
+    margin-left: 8px;
+    margin-top: -22px;
+    border-radius: 5px;
+    border:1px transparent;
+outline: none;
+padding: 0.4rem 1.6rem;
+font-size: 0.9rem;
+font-weight: 600;
+color: white;
+background-color: #01b401;
+transition: 1s;
+}
+
+.add-to-cart-btn:hover{
+    color: #01b401;
+    border:1px solid #01b401;
+    
+    /* box-shadow: #01b401 0px 2px 4     px 0px; */
+    background-color: white;
+}
+
+.menu-addTo-fav{
+    outline: none;
+    border: none;
+    color: gray;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+.menu-addedTo-fav{
+    color: rgb(248, 6, 6);
+}

@@ -1,0 +1,137 @@
+
+@media (min-width: 260px){
+    .cards-outer {
+        margin: 1rem 0.2rem;
+        height: auto;
+        width: 15rem;
+        padding: 0.1rem;
+        /* border: 1px solid rgb(255, 208, 0); */
+      }
+
+      .image-box {
+        height: 12rem;
+        width: 14.8rem;
+        /* border: 1px solid red; */
+      }
+   
+      .cards-detail {
+        width: 100%;
+        /* border: 1px solid greenyellow; */
+      }
+      .name-box {
+        font-size: 1rem;
+        padding: 0.1rem 0rem;
+        /* border: 1px solid rgb(41, 66, 3); */
+      }
+      
+      .MRP-box {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+      /* border: 1px solid rgb(243, 140, 6); */
+      /* border-bottom: 1px solid rgb(219, 217, 217);
+      padding: 0.5rem 0rem; */
+    
+    }
+
+  
+  .rating-box {
+      font-size: 0.8rem;
+  }
+  
+
+  
+  .time-box {
+      font-size: 0.8rem;
+  }
+  
+  .Price-box {
+      font-size: 0.8rem;
+  }
+  
+  .promotedText{
+    margin-top: 1.2rem;
+    margin-left: 0.3rem;
+  }
+}
+
+@media (min-width: 400px){
+    .cards-outer {
+        margin: 1rem 0.2rem;
+        height: auto;
+        width: 20rem;
+        padding: 1rem;
+       border-radius: 12px;
+        /* border: 1px solid rgb(255, 208, 0); */
+      }
+
+      .image-box {
+        height: 12rem;
+        width: 18rem;
+        /* border: 1px solid red; */
+      }
+   
+      .cards-detail {
+        width: 100%;
+        /* border: 1px solid greenyellow; */
+      }
+      .name-box {
+        font-size: 1.1rem;
+        padding: 0.1rem 0rem;
+        /* border: 1px solid rgb(41, 66, 3); */
+      }
+      
+
+
+  
+  .rating-box {
+      font-size: 0.9rem;
+  }
+  
+
+  
+  .time-box {
+      font-size: 0.9rem;
+  }
+  
+  .Price-box {
+      font-size: 0.9rem;
+  }
+  
+  .promotedText{
+
+    margin-top: 2rem;
+    margin-left: 1.3rem;
+   }
+}
+
+@media (min-width: 1201px){
+    .cards-outer {
+        
+        margin: 1rem 1rem;
+
+      }
+      .promotedText{
+
+        margin-top: 1.9rem;
+        margin-left: 2rem;
+       }
+  
+}
+@media (min-width: 1530px){
+    .cards-outer {
+        margin: 1rem 2rem;
+
+      }
+
+ 
+      .promotedText{
+
+        margin-top: 1.9rem;
+        margin-left: 3rem;
+       }
+
+
+}

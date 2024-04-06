@@ -1,0 +1,382 @@
+
+@media (min-width:260px) {
+    
+
+    .menuCard-Outer{
+        padding: 0.5rem;
+        flex-wrap: wrap-reverse;
+        justify-content: center;
+        /* border: 1px solid blue; */
+     
+    }
+    
+    .menuCards-details{
+        /* border: 1px solid red; */
+        align-items: center;
+    }
+
+    .description{
+        font-size: .8rem;
+        font-weight: 300;
+        /* padding: 0.1rem; */
+        padding-bottom: 0.2rem ;
+        align-items: center;
+        color: rgb(241, 0, 0);
+    }
+    
+    .category{
+        font-size: 0.9rem; 
+       
+    }
+    
+    .menu-name{
+        font-size: 0.8rem;
+      
+    }
+    
+  
+   
+    
+    
+    .menu-rating{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem 0.2rem;
+        font-size: 0.9rem;
+        
+    }
+    
+    .menu-price{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem;
+        font-size: 0.9rem;
+       
+    }
+    
+    .menu-inStock{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem;
+        font-size: 0.9rem;
+        
+    }
+    
+    
+    
+    .menu-addTo-fav{
+    
+        font-size: 0.9rem;
+        padding: 0.2rem;
+    }
+
+
+}
+
+@media (min-width:320px) {
+ 
+
+    .menuCard-Outer{
+        width: 100%;
+        justify-content: center;
+        /* justify-content: space-between;    */
+    }
+    .menuCards-details{
+        /* border: 1px solid red; */
+        align-items: center;
+    }
+
+    .add-to-cart-btn{
+        font-size: 0.8rem;
+        margin-top: -18px;
+        }
+ 
+      
+        .category{
+            font-size: 0.9rem; 
+           
+        }
+        
+        .menu-name{
+            font-size: 0.8rem;
+        }
+        
+      
+       
+        
+        
+        .menu-rating{
+            margin: 0.2rem 0.2rem ;
+            padding: 0.2rem 0.2rem;
+            font-size: 0.9rem;
+            
+        }
+        
+        .menu-price{
+            margin: 0.2rem 0.2rem ;
+            padding: 0.2rem;
+            font-size: 0.9rem;
+           
+        }
+        
+        .menu-inStock{
+            margin: 0.2rem 0.2rem ;
+            padding: 0.2rem;
+            font-size: 0.9rem;
+            
+        }
+        
+        
+        
+        .menu-addTo-fav{
+        
+            font-size: 0.9rem;
+            padding: 0.2rem;
+        }
+    
+    
+        
+}
+
+@media (min-width: 481px) {
+ 
+    
+    .menuCard-Outer{
+        width: 100%;
+        padding: 0.5rem;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+      align-items: center;
+        /* border: 1px solid blue; */
+     
+    }
+    .menuCards-details{
+        /* border: 1px solid red; */
+         align-items: flex-start;
+    }
+
+    .description{
+        font-size: .8rem;
+        font-weight: 300;
+        /* padding: 0.1rem; */
+        padding-bottom: 0.2rem ;
+        color: rgb(241, 0, 0);
+    }
+    
+    .category{
+        font-size: 0.8rem; 
+       
+    }
+       
+    .menu-name{
+        font-size: 0.8rem;
+        color: rgb(61, 61, 61);
+        font-weight: 300;
+    }
+  
+   
+    
+    
+    .menu-rating{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem 0.2rem;
+        font-size: 0.9rem;
+        
+    }
+    
+    .menu-price{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem;
+        font-size: 0.9rem;
+       
+    }
+    
+    .menu-inStock{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem;
+        font-size: 0.9rem;
+        
+    }
+    
+    
+    
+    .menu-addTo-fav{
+    
+        font-size: 0.9rem;
+        padding: 0.2rem;
+    }
+    
+ 
+    
+}
+
+@media (min-width: 769px) {
+
+    .menuCards-details{
+        /* border: 1px solid red; */
+         align-items: flex-start;
+    }
+    }
+    
+    
+  
+    
+
+
+@media (min-width: 1025px) {
+   
+ 
+    
+}
+
+@media (min-width: 1201px) {
+    .menuCard-Outer{
+        width: 100%;
+        padding: 0.5rem;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+      align-items: center;
+        /* border: 1px solid blue; */
+     
+    }
+
+    .menuCards-details{
+        /* border: 1px solid red; */
+         align-items: flex-start;
+    }
+
+    .description{
+        font-size: 1rem;
+        font-weight: 300;
+        /* padding: 0.1rem; */
+        padding-bottom: 0.2rem ;
+        color: rgb(131, 19, 19);
+    }
+    
+    .category{
+        font-size: 0.9rem; 
+       
+    }
+       
+    .menu-name{
+        font-size: 0.8rem;
+        color: rgb(61, 61, 61);
+        font-weight: 300;
+    }
+  
+   
+    
+    
+    .menu-rating{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem 0.2rem;
+        font-size: 1rem;
+        
+    }
+    
+    .menu-price{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem;
+        font-size: 1rem;
+       
+    }
+    
+    .menu-inStock{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem;
+        font-size: 1rem;
+        
+    }
+    
+    
+    
+    .menu-addTo-fav{
+    
+        font-size: 1rem;
+        padding: 0.2rem;
+    }
+    
+
+    
+
+}
+@media (min-width: 1500px) {
+  
+    .menuCard-Outer{
+        width: 100%;
+        padding: 0.5rem;
+        flex-wrap: wrap-reverse;
+        justify-content: space-between;
+      align-items: center;
+        /* border: 1px solid blue; */
+     
+    }
+    .menuCards-details{
+        /* border: 1px solid red; */
+         align-items: flex-start;
+    }
+    .description{
+        font-size: 1rem;
+        font-weight: 300;
+        /* padding: 0.1rem; */
+        padding-bottom: 0.2rem ;
+        color: rgb(44, 31, 31);
+    }
+    
+    .category{
+        font-size: 0.9rem; 
+       
+    }
+       
+    .menu-name{
+        font-size: 0.8rem;
+        color: rgb(61, 61, 61);
+        font-weight: 300;
+    }
+  
+   
+    
+    
+    .menu-rating{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem 0.2rem;
+        font-size: 0.9rem;
+        
+    }
+    
+    .menu-price{
+        margin: 0.2rem 0.2rem ;
+        padding: 0.2rem;
+        font-size: 0.9rem;
+       
+    }
+    
+    .menu-inStock{
+        margin: 0.3rem 0.5rem ;
+        padding: 0.2rem;
+        font-size: 0.9rem;
+        
+    }
+    .veg{
+        margin-bottom: 0.2rem;
+        font-size: 1.1rem;
+        color: green;
+    }
+    
+    .nonVeg{
+        margin-bottom: 0.2rem;
+        font-size: 1.1rem;
+   
+    }
+    
+    
+    .menu-addTo-fav{
+    
+        font-size: 0.9rem;
+        padding: 0.3rem;
+    }
+    
+    .add-to-cart-img{
+        height: 6rem;
+        width: 7rem;
+      
+        }
+    
+}

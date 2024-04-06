@@ -1,0 +1,111 @@
+
+@media (min-width:260px) {
+    .menuHeader{
+        /* border: 1px solid red; */
+        width: 100%;
+        height: auto;
+    }
+
+ 
+
+    .restroName{
+        font-size: 1.2rem;
+        
+    }
+    .subInfo{
+        font-size: 0.8rem;
+    }
+}
+
+@media (min-width:741px) {
+    .menuHeader{
+        /* border: 1px solid red; */
+        width: 80%;
+        height: auto;
+    }
+
+  
+    .restroName{
+        font-size: 1.2rem;
+    }
+    .subInfo{
+        font-size: 0.8rem;
+    }
+}
+@media (min-width:770px) {
+    .menuHeader{
+        /* border: 1px solid red; */
+        width: 70%;
+        height: auto;
+    }
+
+  
+    .restroName{
+        font-size: 1.2rem;
+    }
+    .subInfo{
+        font-size: 0.8rem;
+    }
+}
+ @media (min-width:900px) {
+    .menuHeader{
+        /* border: 1px solid red; */
+        width: 70%;
+        height: auto;
+    }
+
+  
+    .restroName{
+        font-size: 1.2rem;
+    }
+    .subInfo{
+        font-size: 0.8rem;
+    }
+}
+ @media (min-width:1010px) {
+    .menuHeader{
+        /* border: 1px solid red; */
+        width: 70%;
+        height: auto;
+    }
+
+   
+    .restroName{
+        font-size: 1.2rem;
+    }
+    .subInfo{
+        font-size: 0.8rem;
+    }
+}
+ @media (min-width:1200px) {
+    .menuHeader{
+        /* border: 1px solid red; */
+        width: 60%;
+        height: auto;
+        padding: 0.5rem 1rem;
+    }
+
+   
+    .restroName{
+        font-size: 1.8rem;
+    }
+    .subInfo{
+        font-size: 1rem;
+    }
+}
+ @media (min-width:1550px) {
+    .menuHeader{
+        /* border: 1px solid red; */
+        width: 60%;
+        height: auto;
+        padding: 0.5rem 1rem;
+    }
+
+   
+    .restroName{
+        font-size: 1.8rem;
+    }
+    .subInfo{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,112 @@
+
+.Counter-outer{
+    height: auto;
+    /* min-height: 99vh; */
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+    /* border: 1px solid red; */
+    
+    }
+    
+    /* search navigation  */
+    .search-outer{
+        height: 4rem;
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color:  transparent;
+        border-bottom: 1px solid rgb(199, 198, 198);
+        /* box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px; */
+    }
+    
+    .search-box{
+        border: 1px solid rgb(182, 181, 181);
+    background-color: white;
+    padding: 0.1rem 0.6rem;
+    }
+    
+    .search-input{
+    padding: 0.3rem 0.4rem;
+    font-size: 1.1rem;
+    outline: none ;
+    border: none;
+    }
+    
+    
+    .input-btn{
+        outline: none ;
+        border: none;
+        background-color: transparent;
+        font-size: 1.1rem;
+        color: gray;
+    }
+    
+    .btn-group{
+    /* margin-right: 4rem; */
+    /* border: 1px solid red; */
+    
+    }
+    .btn{
+        letter-spacing: 1px;
+        color: rgb(128, 127, 127);
+    margin: 0.1rem 0.8rem;
+    padding: 0.5rem 0.5rem;
+    /* padding-bottom: 0.8rem; */
+    font-size: 1rem;
+    outline: none ;
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid transparent ;
+    transition: 1s ;
+    /* border: 1px solid rgb(116, 114, 114); */
+    
+    }
+    .btn:hover{
+        border-bottom: 1px solid gray ;
+        color: rgb(80, 80, 80);
+    }
+    
+    .card-display-outer{
+        height: auto;
+    
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding: 1rem 0.5rem; */
+    /* justify-content: space-evenly; */
+    /* border: 1px solid red; */
+    }
+    
+    .card-display-inner{
+        height: auto;
+    min-height: 99vh;
+    width: 70vw;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 1rem 0.5rem;
+    justify-content: space-evenly;
+    /* border: 1px solid red; */
+    }
+    
+    .Errorhidden{
+        border: 1px solid red;
+        display: none;
+    }
+    
+    .Errorshow{
+      display: initial;
+     
+    }

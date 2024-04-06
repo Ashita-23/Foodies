@@ -1,0 +1,294 @@
+@media (min-width:260px) {
+    .menuOffer_titleBox  {
+        padding-left:2rem;
+      }
+    .offerHeader{
+        font-size: 0.7rem;
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.8rem;
+        
+    }
+    
+}
+@media (min-width:390px) {
+
+    .offerHeader{
+        font-size: 0.7rem;
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.8rem;
+        
+    }
+    
+}
+@media (min-width:440px) {
+
+    .menuOffer_cardsBox{
+        flex-direction: row;
+        flex-wrap: wrap; 
+    }
+    
+    .menuOffer_Card{
+        width:45%;
+        margin-bottom: 0.3rem;
+    }
+    
+
+    .offerHeader{
+        font-size: 0.7rem;
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.6rem;
+        
+    }
+    
+}
+@media (min-width:700px) {
+
+    .menuOffer_cardsBox{
+        flex-direction: row;
+        padding: 1rem 0.2rem;
+         justify-content: space-evenly; 
+     
+    }
+    
+    .menuOffer_Card{
+        width:14rem;
+        height: 3rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+   padding: 0.4rem;
+        justify-content: center;
+      
+        margin: .2rem;
+    }
+    
+
+    .offerHeader{
+        font-size: 0.9rem;
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.8rem;
+        letter-spacing: -1px;
+        font-weight: 600;
+        color: gray;
+        
+    }
+}
+ @media (min-width:750px) {
+
+    .menuOffer_cardsBox{
+        flex-direction: column;
+        padding: 1rem 0.2rem;
+         justify-content: space-evenly; 
+     
+    }
+    
+    .menuOffer_Card{
+        width:70%;
+        height: 3rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+   padding: 0.4rem;
+        justify-content: center;
+      
+        margin: .2rem;
+    }
+    
+     .menuOffer_titleBox span {
+      font-size: 1rem;
+      }
+
+    .offerHeader{
+        font-size: 0.9rem;
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        
+    }
+} 
+ @media (min-width:800px) {
+
+    .menuOffer_cardsBox{
+        flex-direction: column;
+        padding: 1rem 0.2rem;
+         justify-content: space-evenly;   
+     
+    }
+    
+    .menuOffer_Card{
+        width:80%;
+        height: 3rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+   padding: 0.4rem;
+        justify-content: center;
+      
+        margin: .2rem;
+    }
+    
+
+    .offerHeader{
+        font-size: 0.9rem;
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.8rem;
+        letter-spacing: 1px;
+        
+    }
+} 
+ @media (min-width:900px) {
+
+    .menuOffer_cardsBox{
+        flex-direction: column;
+        padding: 1rem 0.2rem;
+         justify-content: space-evenly; 
+     
+    }
+    
+    .menuOffer_Card{
+        width:70%;
+        height: 3rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+   padding: 0.4rem;
+        justify-content: center;
+      
+        margin: .2rem;
+    }
+    
+   
+
+    .offerHeader{
+        font-size: 0.8rem;
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.9rem;
+        letter-spacing: 1px;
+        
+    }
+} 
+@media (min-width:1000px) {
+
+}
+@media (min-width:1200px) {
+    .menuOffer_cardsBox{
+        flex-direction: row;
+        padding: 1rem 0.2rem;
+         justify-content: space-evenly; 
+     
+    }
+    
+    .menuOffer_Card{
+        width:12rem;
+        height: 4rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+   padding: 0.4rem;
+        justify-content: center;
+      
+        margin: .2rem;
+    }
+    
+
+
+    .offerHeader{
+        font-size: 0.7rem;
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.8rem;
+        letter-spacing: -1px;
+        
+    }
+}
+@media (min-width:1500px) {
+    .menuOffer_Card{
+        width:12rem;
+        height: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+   padding: 0.4rem;
+        justify-content: center;
+      
+        margin: .2rem;
+    }
+    .offerHeader{
+        font-size: 0.7rem;
+       
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.8rem;
+        letter-spacing: -1px;
+        
+    }
+}
+@media (min-width:1550px) {
+    .menuOffer_Card{
+        width:13rem;
+        height: 5rem;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+   padding: 0.4rem;
+        justify-content: center;
+      
+        margin: .2rem;
+    }
+    .offerHeader{
+        font-size: 0.8rem;
+       
+    }
+    
+    .tag_colour{
+        color: #885645;
+    }
+    .offerDescription{
+        font-size: 0.9rem;
+        letter-spacing: -1px;
+        
+    }
+}

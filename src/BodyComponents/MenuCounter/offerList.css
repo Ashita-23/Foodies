@@ -1,0 +1,53 @@
+
+
+
+
+.menuOffer_titleBox{
+    /* border: 1px solid red; */
+    padding: 0.4rem 0.1rem;
+    
+}
+
+.menuOffer_titleBox span {
+  margin: 0rem 0.3rem;
+  /* padding-left:2rem; */
+}
+.menuOffer_cardsBox{
+    /* border: 1px solid gray; */
+    padding: 0.2rem;
+    width: 100%;
+    /* min-width: 99%; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+
+
+.menuOffer_Card{
+    border:  1px solid gray;
+    border-radius: 10px;
+    width:90%;
+    margin-bottom: 0.2rem;
+    padding: 0.3rem;
+}
+
+.offerHeader{
+    font-size: 0.8rem;
+}
+
+.tag_colour{
+    color: #885645;
+}
+.offerDescription{
+    font-size: 0.9rem;
+    color: rgb(95, 94, 94);
+}
+
+
+
+
+

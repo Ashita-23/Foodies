@@ -1,0 +1,67 @@
+.menuHeader{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: auto;
+}
+
+.menuOffer_outer{
+  /* border: 1px solid rgb(216, 32, 32); */
+    width: 100%;
+    border-top: 1px dotted grey ;
+
+    
+}
+.menuHeadInner{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1rem 0rem;
+    /* border: 1px solid rgb(32, 149, 216); */
+
+}
+.menuResInfo{
+    padding: 0.4rem ;
+    /* border: 1px solid green; */
+}
+.restroName{
+padding: .2rem 0rem;
+font-size: 3rem;
+font-weight: 700;
+}
+
+.subInfo{
+  font-size: 0.9rem;
+  padding: .2rem 0rem;
+  color: gray;
+}
+.head-resInfo-rating{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    /* border: 1px solid gray ; */
+    padding: 0.8rem 0.4rem;
+    border-radius: 8px ;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+  }
+  .avgRatingString{
+      font-size: 0.8rem;
+      padding-bottom: 0.5rem;
+      /* padding-bottom: 0.4rem; */
+      color: rgb(22, 134, 22);
+      
+      
+}
+  .totalRatingsString{
+    font-size: 0.7rem;
+    padding: 0.4rem 0.2rem;
+    padding-bottom: 0.5rem;
+
+  font-weight: 600;
+ letter-spacing: -1px;
+ color: rgb(145, 145, 145);
+    border-top: 1px solid rgb(156, 156, 156);
+  }
+  
