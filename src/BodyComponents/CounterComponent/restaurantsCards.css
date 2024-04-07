@@ -26,6 +26,8 @@
     height: 11.85rem;
     width: 17.85rem;
   }
+
+
   .cards-detail {
     margin-top: 0.5rem;
     height: auto;
@@ -39,6 +41,7 @@
     font-size: 1.1rem;
     color: rgb(77, 77, 77);
     font-weight: 500;
+    text-align: left;
     padding: 0.2rem 0rem;
     /* border: 1px solid rgb(41, 66, 3); */
   }
@@ -49,6 +52,7 @@
     font-weight: 400;
     padding: 0.5rem 0rem;
     /* border: 1px solid rgb(30, 48, 2); */
+    text-align: left;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;

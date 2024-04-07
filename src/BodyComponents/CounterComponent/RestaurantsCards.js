@@ -10,9 +10,8 @@ const RestaurantsCards = ({resturantLists})=>{
    
 return(<>
 <div className="cards-outer" key={Data?.Id} >
-    <figure className="image-box">
-        <img src={Swiggy_IMAGE_CDN_URL+Data?.cloudinaryImageId
-}   className="image"/>
+    <figure className="image-box ">
+        <img src={Swiggy_IMAGE_CDN_URL+Data?.cloudinaryImageId}   className="image"/>
     </figure>
     <div className="cards-detail">
         <span className="name-box">{Data?.name}</span>
