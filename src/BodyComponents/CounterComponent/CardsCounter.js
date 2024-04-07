@@ -77,19 +77,20 @@ const getSwiggyData= async()=>{
         </div>
         <div className="card-display-outer">
        <div className="card-display-inner">
+       
         {resturantList?.map((cards)=>{
             return resturantList.length === 0 ? ( <CardsShimmer/> ) : ( <Link to={"/restaurant/"+ cards?.info?.id} key={cards?.info?.id} >
             {cards?.info?.promoted ? <RestaurantsCardsPromoted resturantLists={cards}  />:<RestaurantsCards resturantLists={cards} />}
              </Link>);
           })}
-
-        </div> 
-         {/* <div className="card-display-inner">
-        {resturantList?.map((cards)=>{
-            return resturantList.length === 0 ? ( <CardsShimmer/> ) : 
-    cards?.info?.promoted ? <RestaurantsCardsPromoted resturantLists={cards}  />:<RestaurantsCards resturantLists={cards} />})}
-
-        </div>  */}
+         
+        {allRestaurant?.map((cards)=>{
+            return allRestaurant.length === 0 ? ( <CardsShimmer/> ) : ( <Link to={"/restaurant/"+ cards?.info?.id} key={cards?.info?.id} >
+            {cards?.info?.promoted ? <RestaurantsCardsPromoted resturantLists={cards}  />:<RestaurantsCards resturantLists={cards} />}
+             </Link>);
+          })}
+        
+        </div>  
         </div>
       </div>
     </>
