@@ -11,13 +11,16 @@
     justify-content: center;
 }
 
-.cart-heder{
-    border-bottom: 1px solid gainsboro;
-    /* border: 1px solid red; */
-    height: auto;
-    padding: 1rem;
-    padding-left: 8rem;
-width: 70vw;
+.cart-header{
+    /* border: 1px solid blue; */
+    padding-top: 1rem ;
+    width: 90%;
+display: flex;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: space-around;
+/* border-bottom: 1px solid gray; */
+
 }
 
 .cart-count-btn{

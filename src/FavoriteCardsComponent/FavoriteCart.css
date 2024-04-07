@@ -20,6 +20,10 @@
     letter-spacing: 1px;
     border-bottom: 1px solid rgb(158, 158, 158);
     margin: 0rem 2rem;
+    display: flex ;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 .fav_btn{
@@ -160,7 +164,7 @@ border-radius: 12px;
 }
 .remove-from-favCard-btn{
     position: absolute;
-    margin-left: 10px;
+    margin-left: -35px;
     margin-top: -22px;
     border-radius: 5px;
     border:1px transparent;

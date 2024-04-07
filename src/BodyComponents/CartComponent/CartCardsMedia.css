@@ -76,12 +76,6 @@ position: relative;
 border: 1px solid rgb(114, 112, 112);
 }
 
-.remove-from-cart-btn{
-    position: absolute;
-    margin-left: 14px;
-    margin-top: -26px;
-/* background-color: rgb(255, 0, 0); */
-}
 
 
 }
@@ -162,12 +156,7 @@ position: relative;
 border: 1px solid rgb(114, 112, 112);
 }
 
-.remove-from-cart-btn{
-    position: absolute;
-    margin-left: 12px;
-    margin-top: -20px;
-/* background-color: rgb(255, 0, 0); */
-}
+
 
 }
 
@@ -306,12 +295,7 @@ position: relative;
 border: 1px solid rgb(114, 112, 112);
 }
 
-.remove-from-cart-btn{
-    position: absolute;
-    margin-left: 10px;
-    margin-top: -24px;
-/* background-color: rgb(255, 0, 0); */
-}
+
 
 }
 @media (min-width: 500px) {
@@ -560,12 +544,6 @@ position: relative;
 border: 1px solid rgb(114, 112, 112);
 }
 
-.remove-from-cart-btn{
-    position: absolute;
-    margin-left: 12px;
-    margin-top: -20px;
-/* background-color: rgb(255, 0, 0); */
-}
 
 }
 

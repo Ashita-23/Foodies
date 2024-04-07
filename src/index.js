@@ -28,7 +28,7 @@ function App() {
   {/* <MenuCounter/> */}
   <Outlet/>
   
-  {/* <Footer/> */}
+  <Footer/>
     </div>
     </Provider>
   );
