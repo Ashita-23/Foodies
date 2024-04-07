@@ -1,5 +1,5 @@
-import "./Home.css";
-import "./homeMedia.css";
+import "./Home.css"
+import "./homeMedia.css"
 // import { Link } from "react-router-dom";
 import { Home_Config } from "../Assets/Home_Assets/homeConfig";
 import Swigyy from "../Assets/Home_Assets/Swigyy.gif";

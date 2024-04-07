@@ -16,6 +16,7 @@ import FoodStore from './Util/FoodStore';
 import About from './BodyComponents/AboutComponent/about';
 import Carts from './BodyComponents/CartComponent/Cart';
 import FavoriteCart from './FavoriteCardsComponent/FavoriteCart';
+import Footer from './FooterComponent/Footer';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
   {/* <MenuCounter/> */}
   <Outlet/>
   
+  {/* <Footer/> */}
     </div>
     </Provider>
   );

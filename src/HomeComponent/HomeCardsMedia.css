@@ -3,126 +3,148 @@
     
 
     .card-outer{
-        border-radius: 5px;
-        overflow: hidden;
-        height: auto;
+        height: 11rem;
         /* border: 1px solid red; */
-        margin: 1rem 0rem;
-    
-       
+        margin: 0.5rem 0.2rem;
     }
     
     .card-outer:hover{
-        transform: none;
+        transform: none
     }
     
     
     .card-img{
-       
-        height: 10rem;
-        width: 14rem;
-        /* border: 1px solid red; */
-    }
-    
-    .card-title{
-        font-size: 1.2rem;
-        /* border: 1px solid red; */
-    
+        height: 8rem;
+        width: 12rem;
     }
     }
     
     @media (min-width:320px) {
-    }
-    
-    @media (min-width: 481px) {
-    }
-    
-    @media (min-width: 769px) {
-        
+          
+
     .card-outer{
-        border-radius: 5px;
-        overflow: hidden;
-        height: auto;
+        height: 11rem;
         /* border: 1px solid red; */
-        margin: 1rem 1rem;
-       
+        margin: 0.5rem 0.2rem;
     }
     
     .card-outer:hover{
-        transform: none;
+        transform: none
     }
     
     
     .card-img{
-       
+        height: 8rem;
+        width: 12rem;
+    }
+    }
+    
+    @media (min-width: 610px) {
+        
+    .card-outer{
+        height: 12.5rem;
+        /* border: 1px solid red; */
+        margin: 0.5rem 0.2rem;
+    }
+    
+    .card-outer:hover{
+        transform: none
+    }
+    
+    
+    .card-img{
         height: 10rem;
         width: 14rem;
-        /* border: 1px solid red; */
+    }
     }
     
-    .card-title{
-        font-size: 1.2rem;
-        /* border: 1px solid red; */
-    
+    @media (min-width: 700px) {
+        .card-outer{
+            height: 13.5rem;
+            /* border: 1px solid red; */
+            margin: 0.5rem 0.4rem;
+        }
+        
+        .card-outer:hover{
+            transform: none
+        }
+        
+        
+        .card-img{
+            height: 11rem;
+            width: 15rem;
+        }
+   
+
     }
+    @media (min-width: 857px) {
+        .card-outer{
+            height: 13.5rem;
+            /* border: 1px solid red; */
+            margin: 0.6rem;
+        }
+        
+        .card-outer:hover{
+            transform: none
+        }
+        
+        
+        .card-img{
+            height: 11rem;
+            width: 15rem;
+        }
+   
+
+    }
+    @media (min-width: 881px) {
+        .card-outer{
+            height: 12.5rem;
+            /* border: 1px solid red; */
+            margin: 0.8rem 0.3rem;
+        }
+        
+        .card-outer:hover{
+            transform: none
+        }
+        
+        
+        .card-img{
+            height: 10rem;
+            width: 11rem;
+        }
+   
+
+    }
+    @media (min-width: 1275px) {
+        .card-outer{
+            height: 14rem;
+            /* border: 1px solid red; */
+            margin: 0.8rem 0.2rem;
+        }
+        
+        .card-outer:hover{
+            transform: none
+        }
+        
+        
+        .card-img{
+            height: 11rem;
+            width: 12rem;
+        }
+   
+
     }
     @media (min-width: 964px) {
         
-    .card-outer{
-        border-radius: 5px;
-        overflow: hidden;
-        height: auto;
-        /* border: 1px solid red; */
-        margin: 1rem 1.5rem;
-       
-    }
     
-    .card-outer:hover{
-        transform: none;
-    }
+  
     
-    
-    .card-img{
-       
-        height: 10rem;
-        width: 14rem;
-        /* border: 1px solid red; */
-    }
-    
-    .card-title{
-        font-size: 1.2rem;
-        /* border: 1px solid red; */
-    
-    }
     }
     @media (min-width: 1024px) {
         
-    .card-outer{
-        border-radius: 5px;
-        overflow: hidden;
-        height: auto;
-        /* border: 1px solid red; */
-        margin: 1rem 1.5rem;
-       
-    }
-    
-    .card-outer:hover{
-        transform: none;
-    }
-    
-    
-    .card-img{
-       
-        height: 12rem;
-        width: 16rem;
-        /* border: 1px solid red; */
-    }
-    
-    .card-title{
-        font-size: 1.2rem;
-        /* border: 1px solid red; */
-    
-    }
+ 
+  
+   
     }
     
     @media (min-width: 1025px) {
@@ -130,39 +152,28 @@
     
     @media (min-width: 1201px) {
         
-        .card-outer{
-            border-radius: 5px;
-            overflow: hidden;
-            height: auto;
-            /* border: 1px solid red; */
-            margin: 1rem 1rem;
-           
-        }
-        
-        .card-outer:hover{
-            transform: none;
-        }
-        
-        
-        .card-img{
-           
-            height: 14rem;
-            width: 18rem;
-            /* border: 1px solid red; */
-        }
-        
-        .card-title{
-            font-size: 1.2rem;
-            /* border: 1px solid red; */
-        
-        }
+    
+       
         }
     
     
     @media (min-width: 1220px) {
         
-        .card-outer{
-            border: none; 
+      
         }
-     
-        }
+/* 
+
+        'sm': '640px',
+        // => @media (min-width: 640px) { ... }
+  
+        'md': '768px',
+        // => @media (min-width: 768px) { ... }
+  
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+  
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+  
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... } */
