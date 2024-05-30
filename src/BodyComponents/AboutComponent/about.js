@@ -8,8 +8,8 @@ const About = () => {
         <h1 className="about-heading">About Our Project </h1>
         {/* <h2 className="about-heading">If you are note able to see any data on page  </h2> */}
         <p className="about-text">
-          <span>Hello !</span> I am Ashita. <br/>This Web app is a Single Page Application. I have ceated this Web App using create-react-app. here I am using Swiggys public Api. In this web app,I had also  use React-router for routing between multiple pages,react redux took-kit for managing data 
- layer of my web app,Css for styling,Git for code management .
+          <span>Hello !</span> I am Ashita. <br/>This Web app is a Single Page Application. I had ceated this Web App using create-react-app. In this project I am using Swiggys public Api. I had also  used React-router for routing between multiple pages,react redux took-kit for managing data 
+ layer of my web app,Css for styling and Git for code management .
            
         </p>
 
