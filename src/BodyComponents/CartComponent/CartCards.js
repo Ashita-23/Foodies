@@ -29,7 +29,7 @@ return(<>
             <span className="cart-inStock">In Stock : {items?.inStock || "--"}</span></div>
            </div>
            <div className="cartCards-btn-img">
-            <figure className="remove-from-cart-img"><img className="add-to-cart-img " src={Swiggy_IMAGE_CDN_URL+ items?.imageId} /></figure>
+            <figure className="remove-from-cart-img"><img className="add-to-cart-img " src={Swiggy_IMAGE_CDN_URL+ items?.imageId} alt="img" /></figure>
             <button className="remove-from-cart-btn" onClick={()=>removeItemHandler(items?.id)}>Remove</button>
            </div>
         </div>

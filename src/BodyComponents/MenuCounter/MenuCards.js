@@ -13,7 +13,7 @@ const MenuCards = ({menuItems})=>{
 
     // console.log(menuLists.card.card.itemCards,"cards list")
     // console.log(menuLists,"cards ")
-    // console.log(menuItems ,"menuItems  ")
+    console.log(menuItems ,"menuItems  ")
 const [addToFav , setAddToFav] = useState(false)
 const dispatch = useDispatch();
 
@@ -61,7 +61,7 @@ function AddToFavFn(){
 
            </div>
            <div className="menuCards-btn-img">
-            <figure className="add-to-cart-img"><img className="add-to-cart-img " src={Swiggy_IMAGE_CDN_URL+ menuItems?.card?.info?.imageId} /></figure>
+            <figure className="add-to-cart-img"><img className="add-to-cart-img " src={Swiggy_IMAGE_CDN_URL+ menuItems?.card?.info?.imageId} alt="img"/></figure>
             <button className="add-to-cart-btn" onClick={()=>addItemHandler( menuItems?.card?.info)}>Add</button>
            </div>
         </div>

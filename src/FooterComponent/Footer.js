@@ -66,8 +66,8 @@ const Footer = () =>{
  <div className="textBox">
  <p className="infoText">{FooterData?.data?.cards[7]?.card?.card?.title}</p></div>
  <div className="appImagebox">
- <a href={FooterData?.data?.cards[7]?.card?.card?.androidAppLink}><img className="appImage" src={Swiggy_IMAGE_CDN_URL+FooterData?.data?.cards[7]?.card?.card?.androidAppImage} /></a></div>
- <div className="appImagebox"><a href={FooterData?.data?.cards[7]?.card?.card?.iosAppLink} ><img className="appImage" src={Swiggy_IMAGE_CDN_URL+FooterData?.data?.cards[7]?.card?.card?.iosAppImage} /></a></div>
+ <a href={FooterData?.data?.cards[7]?.card?.card?.androidAppLink}><img className="appImage" src={Swiggy_IMAGE_CDN_URL+FooterData?.data?.cards[7]?.card?.card?.androidAppImage} alt="footerImgs"/></a></div>
+ <div className="appImagebox"><a href={FooterData?.data?.cards[7]?.card?.card?.iosAppLink} ><img className="appImage" src={Swiggy_IMAGE_CDN_URL+FooterData?.data?.cards[7]?.card?.card?.iosAppImage} alt="footerImg" /></a></div>
  </div>
 
   <div className="footer-end">

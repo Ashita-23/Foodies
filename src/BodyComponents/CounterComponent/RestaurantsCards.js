@@ -5,13 +5,13 @@ import {Swiggy_IMAGE_CDN_URL} from "../../Util/ApiConfig"
 
 const RestaurantsCards = ({resturantLists})=>{
     const Data = resturantLists?.info
-    // console.log( Data?.id  , "R list")
+    // console.log( Data , "R list")
 
    
 return(<>
 <div className="cards-outer" key={Data?.Id} >
     <figure className="image-box ">
-        <img src={Swiggy_IMAGE_CDN_URL+Data?.cloudinaryImageId}   className="image"/>
+        <img src={Swiggy_IMAGE_CDN_URL+Data?.cloudinaryImageId} alt="img"  className="image"/>
     </figure>
     <div className="cards-detail">
         <span className="name-box">{Data?.name}</span>

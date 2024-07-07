@@ -30,7 +30,7 @@ const  Carts = ()=>{
     }
   
     if (!Carts ) return null;
-    return (Carts.length===0) ? <div className="empty-cart-error"><img src={emptyCart} className="empty-cart-img" /><h1>Add Your food item .....</h1></div>:( <div className="cart-outer">
+    return (Carts.length===0) ? <div className="empty-cart-error"><img src={emptyCart} className="empty-cart-img" alt="img" /><h1>Add Your food item .....</h1></div>:( <div className="cart-outer">
         <div className="cart-header">
         <span className="cart-count-btn">Cart Items {cartItems === null && undefined ? 0 : Carts.length}</span>
         <span className="cart-count-btn"><button className="clear-cart-btn" onClick={()=>ClearAllCarts()}>Clear Cart</button></span>

@@ -1,12 +1,17 @@
 import "./Home.css"
 import "./homeMedia.css"
+import { toast } from 'react-toastify';
 // import { Link } from "react-router-dom";
 import { Home_Config } from "../Assets/Home_Assets/homeConfig";
 import Swigyy from "../Assets/Home_Assets/Swigyy.gif";
 import Home_Cards from "./HomeCards";
 import { Link } from "react-router-dom";
+import { useEffect } from "react";
 
 const Home = () => {
+
+
+ 
   // console.log(Home_Config)
   return (
     <>
@@ -36,7 +41,7 @@ const Home = () => {
             </button>
           </div>
           <div className="home-image-box">
-            <img src={Swigyy} className="img-box" />
+            <img src={Swigyy} className="img-box" alt="swiggy"/>
           </div>
         </div>
         <div className="home-Cards-box">

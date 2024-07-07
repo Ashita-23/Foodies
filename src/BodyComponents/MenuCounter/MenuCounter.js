@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-// import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import "./MenuCounter.css";
 import "./MenuCounterMedia.css";
@@ -9,7 +9,7 @@ import CounterShimmer from "../../ShimmerComponent/CounterShimmer";
 
 // import CardsShimmer from "../ShimmerComponents/CardsShimmer"
 const MenuCounter = () => {
-//   const restaurantId = useParams();
+  const restaurantId = useParams();
   // console.log(restaurantId);
 
   const [menu, setMenu] = useState([]);
@@ -29,14 +29,14 @@ const MenuCounter = () => {
 
   async function getMenuList() {
     try{
+    // const Swiggy_MENU_API_URL =
+      // "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.38704&lng=77.2821787&restaurantId=" +
+      // "747243"+
+      // "&submitAction=ENTER";
     const Swiggy_MENU_API_URL =
       "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.38704&lng=77.2821787&restaurantId=" +
-      "747243"+
+      restaurantId.id +
       "&submitAction=ENTER";
-    // const Swiggy_MENU_API_URL =
-    //   "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.38704&lng=77.2821787&restaurantId=" +
-    //   restaurantId.id +
-    //   "&submitAction=ENTER";
     const MenuList = await fetch(Swiggy_MENU_API_URL);
     const Json = await MenuList.json();
     // console.log(Json, "main Menu Data")  747243
@@ -76,8 +76,7 @@ if (!menu) return null ;
  
         <div className="menu-inner" key={"menu-inner"}>
           {filterMenu.map((menuLists,index) => {
-            {/* console.log(menuLists, "ML"); */}
-               {/* if(menuLists.length === null && 0 ) return  */}
+   
             return (!menuLists) ? <div>No menu is here ..................!</div> :  (
               <>
                 <div className="accordionContainor" key={menuLists?.card?.card?.itemCards?.card?.info?.id} >

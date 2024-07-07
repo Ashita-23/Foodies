@@ -22,7 +22,7 @@ const RemoveAll = ()=>{
 
 if(!FavItems) return null 
 
- return (FavItems.length===0)?<div className="empty-cart-error"><img src={emptyCart} className="empty-cart-img" /><h1>Add Your food item .....</h1></div>:
+ return (FavItems.length===0)?<div className="empty-cart-error"><img src={emptyCart} className="empty-cart-img" alt="img" /><h1>Add Your food item .....</h1></div>:
   (  <div className="fav_outer">
  <div className="fav_header">Items {FavItems.length}<button className="fav_btn" onClick={()=>RemoveAll()}>Clear All</button></div>
                <div className="fav_inner">
@@ -40,7 +40,7 @@ if(!FavItems) return null
 
            </div>
            <div className="favCard-btn-img">
-            <figure className="remove-from-favCard-img"><img className="favCard-img" src={Swiggy_IMAGE_CDN_URL+ items?.imageId} /></figure>
+            <figure className="remove-from-favCard-img"><img className="favCard-img" src={Swiggy_IMAGE_CDN_URL+ items?.imageId} alt="img" /></figure>
             <button className="remove-from-favCard-btn" onClick={()=>FavItemRemove(items?.id)}>Remove</button>
            </div>
         </div>) )   

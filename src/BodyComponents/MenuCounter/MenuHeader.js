@@ -2,7 +2,7 @@
 import "./MenuHeader.css"
 import "./MenuHeaderMedia.css"
 import { useEffect, useState } from "react";
-// import { useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import MenuOfferList from "./MenuOfferList";
 // import {Swiggy_IMAGE_CDN_URL} from "../../Util/ApiConfig"
 const MenuHeader  = () => {
@@ -13,21 +13,21 @@ const MenuHeader  = () => {
     // console.log(menuHeader,"MenuHeader ")
     // console.log(MenuOffers,"MenuOffers ")
     // console.log(resInfo,"MenuHeader resInfo")
-    // const restaurantId = useParams();
+    const restaurantId = useParams();
     useEffect(() => {
         getMenuInfo();
       }, []);
     
     async function getMenuInfo() {
         try{
+        // const Swiggy_MENU_API_URL =
+          // "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.38704&lng=77.2821787&restaurantId=" +
+          // "747243" +
+          // "&submitAction=ENTER";
         const Swiggy_MENU_API_URL =
           "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.38704&lng=77.2821787&restaurantId=" +
-          "747243" +
+          restaurantId.id +
           "&submitAction=ENTER";
-        // const Swiggy_MENU_API_URL =
-        //   "https://www.swiggy.com/dapi/menu/pl?page-type=REGULAR_MENU&complete-menu=true&lat=28.38704&lng=77.2821787&restaurantId=" +
-        //   restaurantId.id +
-        //   "&submitAction=ENTER";
         const MenuList = await fetch(Swiggy_MENU_API_URL);
         const Json = await MenuList.json();
         // console.log(Json, "main Menu Data")

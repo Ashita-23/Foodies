@@ -3,9 +3,11 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 // import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import { useEffect } from 'react';
 import './App.css';
 // import Home from './HomeComponent/Home';
+import { ToastContainer , toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import Navigation from './NavComponents/Navigation';
 import RestaurantCounter from "./BodyComponents/CounterComponent/CardsCounter"
 import MenuCounter from './BodyComponents/MenuCounter/MenuCounter';
@@ -19,6 +21,19 @@ import FavoriteCart from './FavoriteCardsComponent/FavoriteCart';
 import Footer from './FooterComponent/Footer';
 
 function App() {
+  useEffect(()=>{
+    toast.info("pleas use cors extension in  chrome to see swiggys api data",{
+      position: "top-center",
+      autoClose: 5000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "colored",
+    
+      })
+  },[])
   return (
 <Provider store={FoodStore}>
     <div className="App">
@@ -27,7 +42,11 @@ function App() {
   {/* <RestaurantCounter/> */}
   {/* <MenuCounter/> */}
   <Outlet/>
-  
+  <ToastContainer 
+
+
+
+/>
   <Footer/>
     </div>
     </Provider>
