@@ -13,7 +13,7 @@ const MenuCards = ({menuItems})=>{
 
     // console.log(menuLists.card.card.itemCards,"cards list")
     // console.log(menuLists,"cards ")
-    console.log(menuItems ,"menuItems  ")
+    // console.log(menuItems ,"menuItems  ")
 const [addToFav , setAddToFav] = useState(false)
 const dispatch = useDispatch();
 

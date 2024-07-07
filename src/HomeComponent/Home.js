@@ -1,12 +1,12 @@
 import "./Home.css"
 import "./homeMedia.css"
-import { toast } from 'react-toastify';
+
 // import { Link } from "react-router-dom";
 import { Home_Config } from "../Assets/Home_Assets/homeConfig";
 import Swigyy from "../Assets/Home_Assets/Swigyy.gif";
 import Home_Cards from "./HomeCards";
 import { Link } from "react-router-dom";
-import { useEffect } from "react";
+
 
 const Home = () => {
 
@@ -16,8 +16,8 @@ const Home = () => {
   return (
     <>
       <div className="home-outer">
-        <div className="home-intro-box">
-          <div className="home-intro-text">
+        <div className="home-intro-box" key={"home001"}>
+          <div className="home-intro-text" key={"hometext001"}>
             <h1 className="heading">Foodies</h1>
             <h2 className="title-tag">
               Your favorite restaurants, at your fingertips.
@@ -40,14 +40,14 @@ const Home = () => {
              <Link to={"/restaurant"}>order now</Link>
             </button>
           </div>
-          <div className="home-image-box">
+          <div className="home-image-box" key={"hometext002"}>
             <img src={Swigyy} className="img-box" alt="swiggy"/>
           </div>
         </div>
-        <div className="home-Cards-box">
+        <div className="home-Cards-box" key={"home002"}>
           {/* <h1>Click On Order Now to view our </h1> */}
           {Home_Config.map((Cards) => {
-            return (<Link to={"/restaurant"}><Home_Cards HomeCards={Cards} /></Link>);
+            return (<Link to={"/restaurant"}><Home_Cards HomeCards={Cards} key={Cards.id} /></Link>);
           })}
         </div>
       </div>

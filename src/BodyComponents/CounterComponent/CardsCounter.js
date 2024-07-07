@@ -30,7 +30,7 @@ const getSwiggyData= async()=>{
     try{
     const Swiggy_API = await fetch("https://www.swiggy.com/dapi/restaurants/list/v5?lat=28.398894&lng=77.272294&page_type=DESKTOP_WEB_LISTING");
     const JsonData = await Swiggy_API.json();
-       console.log(JsonData ,  "new Api ")
+      //  console.log(JsonData ,  "new Api ")
       //  console.log(JsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants ,   "new Api inside  ")
       //  console.log(JsonData?.data?.cards[3]?.card?.card?.gridElements?.infoWithStyle?.restaurants ,  "new Api data")
     setAllRestaurant(JsonData?.data?.cards[2]?.card?.card?.gridElements?.infoWithStyle?.restaurants  );
