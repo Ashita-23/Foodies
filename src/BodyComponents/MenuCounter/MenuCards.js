@@ -36,7 +36,6 @@ function AddToFavFn(){
     dispatch(AddFavItem(items))
     // localStorage.setItem("favouriteItems",JSON.stringify(items))
    }
-//    items
 
    const RemoveFav = () =>{
     dispatch(ReFavItem())
